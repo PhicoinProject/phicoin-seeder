@@ -1,0 +1,5 @@
+*.o
+dnsseed*
+dnsstats.log
+.idea/
+cmake-build-debug
