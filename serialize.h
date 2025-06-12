@@ -68,7 +68,7 @@ class CAutoFile;
 static const unsigned int MAX_SIZE = 0x02000000;
 
 // RIP-5 (restricted assets)
-static const int PROTOCOL_VERSION = 70028;
+static const int PROTOCOL_VERSION = 80010;
 
 // Used to bypass the rule against non-const reference to temporary
 // where it makes sense with wrappers such as CFlatData or CTxDB
