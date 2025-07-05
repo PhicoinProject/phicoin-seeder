@@ -95,7 +95,7 @@ class CNode
         CAddress me(CService("0.0.0.0"));
         BeginMessage("version");
         int nBestHeight = GetRequireHeight();
-        string ver = "/Phicoin-seeder:4.3.1/";
+        string ver = "/Phicoin-seeder:5.0.0/";
         uint8_t fRelayTxs = 0;
         vSend << PROTOCOL_VERSION << nLocalServices << nTime << you << me << nLocalNonce << ver << nBestHeight
               << fRelayTxs;

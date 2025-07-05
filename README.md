@@ -58,7 +58,7 @@ $ setcap 'cap_net_bind_service=+ep' /path/to/dnsseed
 ## PHICOIN NETWORK PARAMETERS
 
 The seeder is configured for the Phicoin network with the following parameters:
-- Main network port: 18964
+- Main network port: 28964
 - Test network port: 18965
 - Regtest network port: 18966
 - Network magic bytes: PHIX (0x50, 0x48, 0x49, 0x58)

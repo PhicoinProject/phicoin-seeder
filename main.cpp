@@ -487,7 +487,7 @@ extern "C" void *ThreadSeeder(void *)
 {
     if (!fTestNet && !fRegTest)
     {
-        db.Add(CService("kjy2eqzk4zwi5zd3.onion", 18964), true); //Main net
+        db.Add(CService("kjy2eqzk4zwi5zd3.onion", 28964), true); //Main net
     }
     do
     {
