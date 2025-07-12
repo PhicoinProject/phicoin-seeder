@@ -2,15 +2,15 @@
 # ------------------------------------------------------------
 #  startup script for Phicoin DNS seed
 #  This script builds the dnsseed binary (if necessary) and
-#  launches it so that it answers as host "seed1.phicoin.net".
+#  launches it so that it answers as host "phicoin.net".
 #  Adjust variables below to fit your environment.
 # ------------------------------------------------------------
 
 set -euo pipefail
 
 # -------- configuration -------------------------------------------------------
-SEED_HOST="seed1.phicoin.net"     # Hostname of the DNS seed (-h)
-NS_HOST="ns1.phicoin.net"        # Authoritative nameserver hostname (-n)
+SEED_HOST="seed.phicoin.net"           # Parent domain; dnsseed will answer *.phicoin.net
+NS_HOST="ns2.phicoin.net"         # Authoritative nameserver hostname (-n)
 ADMIN_MAIL="dns@phicoin.net"      # E-mail used in SOA records (-m)
 DNS_PORT=53                        # UDP port to listen on (-p)
 CRAWLER_THREADS=96                 # Number of crawler threads (-t)
