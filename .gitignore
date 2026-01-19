@@ -1,0 +1,10 @@
+*.o
+
+dnsstats.log
+.idea/
+cmake-build-debug
+dnsseed.dat
+dnsseed.dump
+dnsseed
+node_tracker/config.json
+node_tracker/nodes.json

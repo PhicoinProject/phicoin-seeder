@@ -1,0 +1,3 @@
+/mnt/e/Crypto_project/PHI/phicoin-seeder/build/CMakeFiles/ravencoin_seeder.dir
+/mnt/e/Crypto_project/PHI/phicoin-seeder/build/CMakeFiles/edit_cache.dir
+/mnt/e/Crypto_project/PHI/phicoin-seeder/build/CMakeFiles/rebuild_cache.dir
